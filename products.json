@@ -1,0 +1,42 @@
+[
+  {
+    "id": "sar-01",
+    "name": "Classic Silk Saree",
+    "category": "Sarees",
+    "price": 65,
+    "description": "Sample product \u2014 replace before launch",
+    "image": "",
+    "stock": 5,
+    "label": "Featured"
+  },
+  {
+    "id": "dre-01",
+    "name": "Georgette Frock",
+    "category": "Dresses",
+    "price": 35,
+    "description": "Sample product \u2014 replace before launch",
+    "image": "",
+    "stock": 5,
+    "label": "Featured"
+  },
+  {
+    "id": "jew-01",
+    "name": "Statement Necklace Set",
+    "category": "Jewellery",
+    "price": 38,
+    "description": "Sample product \u2014 replace before launch",
+    "image": "",
+    "stock": 5,
+    "label": "Featured"
+  },
+  {
+    "id": "ban-01",
+    "name": "Gold-Tone Bangle Set",
+    "category": "Bangles",
+    "price": 24,
+    "description": "Sample product \u2014 replace before launch",
+    "image": "",
+    "stock": 5,
+    "label": "Featured"
+  }
+]
