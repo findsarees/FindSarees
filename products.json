@@ -1,42 +1,42 @@
 [
   {
-    "id": "sar-01",
-    "name": "Classic Silk Saree",
+    "id": "fs-mwr8csbo-ixuoz",
+    "name": "Pure Mul Cotton Saree - With Boutique Stitched Blouse",
     "category": "Sarees",
-    "price": 65,
-    "description": "Sample product \u2014 replace before launch",
+    "price": 39,
+    "stock": 1,
     "image": "",
-    "stock": 5,
-    "label": "Featured"
+    "description": "Yellow, Mul Cotton",
+    "label": "Sarees"
   },
   {
-    "id": "dre-01",
-    "name": "Georgette Frock",
-    "category": "Dresses",
-    "price": 35,
-    "description": "Sample product \u2014 replace before launch",
+    "id": "fs-mwr8evbg-qmtu2",
+    "name": "Mul Tissue Sarees - Fall and Pico done",
+    "category": "Sarees",
+    "price": 25,
+    "stock": 2,
     "image": "",
-    "stock": 5,
-    "label": "Featured"
+    "description": "Mul Tissue, Peacock Color, Party wear",
+    "label": "Latest"
   },
   {
-    "id": "jew-01",
-    "name": "Statement Necklace Set",
+    "id": "fs-mwr8gvo5-tik8n",
+    "name": "Anti-Tarnish Black Bamboo Kada - Trending",
     "category": "Jewellery",
-    "price": 38,
-    "description": "Sample product \u2014 replace before launch",
-    "image": "",
-    "stock": 5,
-    "label": "Featured"
+    "price": 7.99,
+    "stock": 10,
+    "image": "images/Black Kada.png",
+    "description": "Black, Regular",
+    "label": "Trending"
   },
   {
-    "id": "ban-01",
-    "name": "Gold-Tone Bangle Set",
-    "category": "Bangles",
-    "price": 24,
-    "description": "Sample product \u2014 replace before launch",
-    "image": "",
-    "stock": 5,
-    "label": "Featured"
+    "id": "fs-mwr8rbcg-ssnve",
+    "name": "Anti-Tarnish Gold Bamboo Kada",
+    "category": "Sarees",
+    "price": 6,
+    "stock": 4,
+    "image": "images/Gold Kada.png",
+    "description": "Gold, Regular",
+    "label": ""
   }
 ]
