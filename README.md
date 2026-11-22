@@ -1,13 +1,27 @@
-# FindSarees branded PWA update
+# FindSarees — Modern PWA storefront
 
-Updated using the logo supplied by the shop owner. Green, antique gold, and cream theme. Includes Android/iOS app icons, home page branding, and Instagram link.
+## Upload to GitHub Pages
 
-## Update your existing GitHub Pages website
+1. Extract this ZIP.
+2. In your existing `findsarees/FindSarees` GitHub repository, upload **all files and the `icons` folder contents** into the repository root, replacing the matching files. Ensure `index.html`, `app.js`, `style.css`, `sw.js`, and `manifest.webmanifest` are in the root. GitHub's browser upload may need a desktop browser for convenient multi-file replacement.
+3. Commit changes. Your GitHub Pages URL stays the same.
+4. Refresh the website; if the old version remains installed, close/reopen the PWA or clear site data.
 
-1. Open your **findsarees/FindSarees** repository.
-2. Replace `index.html`, `manifest.webmanifest`, `sw.js`, and both files inside `icons/` with the files from this ZIP.
-3. Upload `findsarees-logo.jpg` to the repository root.
-4. Keep your existing `app.js` (or replace with the included unchanged copy).
-5. Commit changes and wait for GitHub Pages deployment. Reload the website. If your installed PWA still shows the old design, close/reopen it or clear site data.
+## Catalog management
 
-**Note:** Products are demonstration listings; the checkout does not accept orders or payments. Replace sample products and add an order/payment system before taking customer orders.
+Edit the `PRODUCTS` array near the top of `app.js` to replace the eight **sample** products and prices. The current cards use decorative placeholders, **not actual merchandise photographs**. For real photos, add files and modify the product card markup to show `<img>` elements.
+
+## Shipping
+
+- $10 per order: California (CA), Texas (TX, including Dallas), Wisconsin (WI), Colorado (CO), Seattle city in Washington (WA).
+- $8 per order: all other US states and DC.
+- Customers select a state and enter a city. Washington requires a city. City names are not address-validated, so **the server-side checkout must verify shipping destination and apply the correct rate**. Alaska and Hawaii are included at $8 per the provided 'all states' rule.
+- Taxes are not calculated.
+
+## Payment status — important
+
+This is a **demo storefront** with a working multi-item cart, estimated shipping, and a copyable order inquiry. It **does not process payments**. Do not advertise it as a live checkout until you connect a secure server-side payment provider and verify the destination shipping charge there. GitHub Pages cannot safely hold Stripe secret keys or create Checkout Sessions by itself. Never put private Stripe keys in browser JavaScript.
+
+## PWA
+
+Includes install manifest, app icons, and offline service worker. Android Chrome may offer Install App; on iPhone Safari use Share > Add to Home Screen.
